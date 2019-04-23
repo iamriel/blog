@@ -1,5 +1,5 @@
 ALLOWED_HOSTS = [
-    "riel-blog.herokuapp.com",
+    "iamriel-blog.herokuapp.com",
     "blog.iamriel.com",
 ]
 DEBUG = False
