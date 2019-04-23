@@ -24,5 +24,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     re_path(r"^cms/", include(wagtailadmin_urls)),
     re_path(r"^documents/", include(wagtaildocs_urls)),
-    re_path(r"^pages/", include(wagtail_urls)),
+    re_path(r"", include(wagtail_urls)),
 ]
